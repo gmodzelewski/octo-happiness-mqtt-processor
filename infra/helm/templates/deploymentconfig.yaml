@@ -44,9 +44,6 @@ spec:
             - name: artemis
               containerPort: 5642
               protocol: TCP
-          envFrom:
-            - configMapRef:
-                name: {{ include "app.fullname" . }}-config
           resources: {}
           securityContext:
             privileged: false
