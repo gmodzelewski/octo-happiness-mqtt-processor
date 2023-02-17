@@ -6,3 +6,9 @@ git:
     
 feature:
   - observability
+
+amqbroker:
+  username: admin
+  password: admin
+  servicename: ex-aao-amqp-acceptor-1-svc
+  serviceport: 5672
