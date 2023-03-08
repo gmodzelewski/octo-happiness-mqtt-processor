@@ -9,7 +9,5 @@
 ```
 
 ### build via tekton:
-```sh
-helm upgrade -i processor infra/helm
-```
 
+Use the octo-happiness project with the design "mqtt-processor"
